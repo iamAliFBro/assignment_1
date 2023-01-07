@@ -194,12 +194,14 @@
     height: 30vh;
     display: flex;
     justify-content: space-between;
-    
+      padding-top: 9%;
+    padding-bottom: 13%;
+    padding-right: 13%;
+    padding-left: 13%;
 }
 .footer{
     background-color: #151414;
-  
-    padding: 10% 13%;
+
 }
 
 
