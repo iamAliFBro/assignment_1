@@ -42,7 +42,7 @@
     line-height: 30px;
 }
 
-.contactBtn {
+.contactBtn, .learnMore {
     background-color: #f15b22;
     color: white;
     padding: 19px 30px;
@@ -53,7 +53,7 @@
     cursor: pointer;
 }
 
-.person {
+.person, .women {
     display: flex;
     width: 78%;
     margin: 0 auto;
@@ -65,14 +65,14 @@
 
 }
 
-.personLeft {
+.personLeft, .womenRight {
     margin: 0 auto;
 
 
 
 }
 
-.personRight {
+.personRight, .womenLeft {
     margin: 0 auto;
 
 
@@ -85,12 +85,12 @@
     margin-right: 9px;
 }
 
-.personTitle {
+.personTitle, .womenleftTitle {
     font-size: 45px;
 
 }
 
-.personRight .des {
+.personRight .des, .womenRightDes {
     letter-spacing: 1px;
     margin: 25px 0;
     line-height: 30px;
@@ -135,6 +135,23 @@
 
 }
 
+
+
+.women {
+    padding: 50px 0;
+}
+.women img{
+    padding: 30px;
+}
+
+.womenRight{
+    
+    background-size: 520px;
+    background-image: url("./images/orangebg.png");
+    background-repeat: no-repeat;
+}
+
+
 .positiveMindSet {
     background-image: url("./images/watch.png"), linear-gradient(90deg, #f05a22 0%, rgba(241, 93, 34, 0) 100%);
     ;
@@ -170,4 +187,66 @@
     border-radius: 6px;
     cursor: pointer;
     font-weight: 600;
+}
+
+.footerContent {
+    color: white;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer{
+    background-color: #151414;
+  
+    padding: 10% 13%;
+}
+
+
+
+.footerTitle{
+    font-size: 45px;
+    margin: 20px 0;
+}
+
+.footerDes, .email, .phone{
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin: 20px 0;
+}
+
+.social img{
+    margin-top: 40px;
+    margin-right: 15px;
+}
+
+.emailInput{
+    width: 100%;
+    color: white;
+    background-color:#151414;
+    border: 1px solid white;
+    border-radius: 7px;
+    height: 60px;
+    padding: 2px;
+}
+.submitButton{
+    background-color: white;
+    color: #f26631;
+    padding: 17px 28px;
+    border: 0;
+    margin-top: 15px;
+    font-size: 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.emailInput::placeholder{
+ font-size: 18px;
+ padding: 20px;
+    color: white;
+}
+
+.subsTitle{
+    margin: 40px 0;
 }
