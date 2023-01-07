@@ -1,8 +1,6 @@
 * {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
-
-
+    font-family: 'Work Sans', sans-serif;
 }
 
 .container {
@@ -33,22 +31,141 @@
 }
 
 .hero2 h1 {
-    font-size: 70px;
-    font-weight: 900;
+    font-size: 65px;
+    font-weight: bolder;
 }
 
 .hero2 p {
     font-size: 20px;
     margin: 20px 0;
     font-weight: 300;
+    line-height: 30px;
 }
 
 .contactBtn {
     background-color: #f15b22;
     color: white;
-    padding: 20px 30px;
+    padding: 19px 30px;
     border: 0;
-    margin-top: 30px;
+    margin-top: 15px;
     font-size: 25px;
     border-radius: 6px;
+    cursor: pointer;
+}
+
+.person {
+    display: flex;
+    width: 78%;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 150px;
+
+
+
+
+}
+
+.personLeft {
+    margin: 0 auto;
+
+
+
+}
+
+.personRight {
+    margin: 0 auto;
+
+
+}
+
+.greenTik {
+    color: #16d887;
+    font-weight: bolder;
+    line-height: 35px;
+    margin-right: 9px;
+}
+
+.personTitle {
+    font-size: 45px;
+
+}
+
+.personRight .des {
+    letter-spacing: 1px;
+    margin: 25px 0;
+    line-height: 30px;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.list {
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+.plans {
+    text-align: center;
+    margin-top: 120px;
+
+}
+
+.allPlans {
+    display: flex;
+    margin: 0 auto;
+    width: 85%;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.eachPlanTitle {
+    margin: 20px 0;
+    font-size: 35px;
+
+}
+
+.planSubTitle {
+    font-weight: 500;
+    color: #979696;
+    letter-spacing: 1px;
+}
+
+.planTitle {
+    font-size: 50px;
+    
+}
+
+.positiveMindSet{
+    background-image: url("./images/watch.png"), linear-gradient(90deg, #f55b1f 0%, rgba(241, 93, 34, 0) 100%);;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10% 13%;
+    border-radius: 8px;
+    height: 30%;
+    background-blend-mode: overlay;
+   
+    
+
+}
+.callNowSection{
+padding: 6% 4%;
+}
+
+.positiveMindSetTitle{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+
+}
+
+.callNow {
+    background-color: white;
+    color: #f15b22;
+    padding: 15px 25px;
+    border: 0;
+    margin-top: 15px;
+    font-size: 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
 }
