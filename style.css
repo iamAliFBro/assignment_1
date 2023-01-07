@@ -3,6 +3,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+/* banner part start*/
 .container {
     display: flex;
     justify-content: space-evenly;
@@ -42,38 +43,41 @@
     line-height: 30px;
 }
 
-.contactBtn, .learnMore {
+.contactBtn{
     background-color: #f15b22;
     color: white;
-    padding: 19px 30px;
+    padding: 17px 20px;
     border: 0;
     margin-top: 15px;
     font-size: 25px;
     border-radius: 6px;
     cursor: pointer;
 }
+ /* banner part end */
 
-.person, .women {
+
+
+ /* person part start */
+.person {
     display: flex;
     width: 78%;
-    margin: 0 auto;
+    margin: 0 5%;
     align-items: center;
     margin-top: 150px;
+   
 
-
-
-
-}
-
-.personLeft, .womenRight {
-    margin: 0 auto;
-
-
+    
 
 }
 
-.personRight, .womenLeft {
+.personLeft{
     margin: 0 auto;
+    
+
+}
+
+.personRight {
+margin: 0 auto;
 
 
 }
@@ -85,12 +89,24 @@
     margin-right: 9px;
 }
 
-.personTitle, .womenleftTitle {
+.personTitle {
     font-size: 45px;
 
 }
 
-.personRight .des, .womenRightDes {
+.personRight {
+    letter-spacing: 1px;
+    margin: 25px 0;
+    line-height: 30px;
+    font-weight: 300;
+    font-size: 17px;
+    
+}
+
+.personRight h1{
+    line-height: 50px;
+}
+.personRightDescription {
     letter-spacing: 1px;
     margin: 25px 0;
     line-height: 30px;
@@ -98,12 +114,18 @@
     font-size: 17px;
 }
 
+
 .list {
     font-weight: 300;
     letter-spacing: 1px;
     font-size: 17px;
 }
 
+/* person part end */
+
+
+
+/* all plans start */
 .plans {
     text-align: center;
     margin-top: 120px;
@@ -135,23 +157,64 @@
 
 }
 
+/* all plans part end */
 
 
+
+/* Roadmap of Dev part start */
 .women {
+    display: flex;
+    width: 78%;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 150px;
     padding: 50px 0;
+}
+
+.womenleftTitle {
+    font-size: 45px;
+
+}
+.womenLeft {
+    margin: 0 auto;
+
+
 }
 .women img{
     padding: 30px;
 }
 
 .womenRight{
-    
+    margin: 0 auto;
     background-size: 520px;
     background-image: url("./images/orangebg.png");
     background-repeat: no-repeat;
 }
 
 
+.womenRightDescription {
+    letter-spacing: 1px;
+    margin: 25px 0;
+    line-height: 30px;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.learnMore {
+    background-color: #f15b22;
+    color: white;
+    padding: 17px 20px;
+    border: 0;
+    margin-top: 15px;
+    font-size: 25px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+/* roadmap of dev part end */
+
+
+
+/* call now section start */
 .positiveMindSet {
     background-image: url("./images/watch.png"), linear-gradient(90deg, #f05a22 0%, rgba(241, 93, 34, 0) 100%);
     ;
@@ -189,6 +252,11 @@
     font-weight: 600;
 }
 
+/* call now section end */
+
+
+
+/* footer part start */
 .footerContent {
     color: white;
     height: 30vh;
@@ -222,6 +290,12 @@
     margin-right: 15px;
 }
 
+
+.subsTitle{
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
 .emailInput{
     width: 100%;
     color: white;
@@ -234,7 +308,7 @@
 .submitButton{
     background-color: white;
     color: #f26631;
-    padding: 17px 28px;
+    padding: 15px 25px;
     border: 0;
     margin-top: 15px;
     font-size: 25px;
@@ -252,3 +326,5 @@
 .subsTitle{
     margin: 40px 0;
 }
+
+/* footer part end */
